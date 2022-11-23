@@ -1,7 +1,8 @@
+import Home from "./views/Home";
 const App = () => {
   return (
     <div className="App">
-      <h1 className="font-bold text-2xl">React Tailwind</h1>
+      <Home />
     </div>
   );
 };
