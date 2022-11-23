@@ -12,7 +12,7 @@ const GetM5 = () => {
   }, []);
   return (
     <>
-      <div className="flex ">
+      <div className="flex  ">
         <h5 className="text-gray-900 text-xl font-medium mb-2">
           Riwayat Gempa Magnitudo {">"} 5.0
         </h5>
@@ -42,7 +42,7 @@ const GetM5 = () => {
         </thead>
         <tbody className="text-sm divide-y divide-gray-100">
           {history.map((el, i) => (
-            <tr key={i}>
+            <tr className="cursor-pointer" key={i}>
               <td className="p-2 whitespace-nowrap">
                 <div className="text-left">
                   {el.Jam} {el.Tanggal}
